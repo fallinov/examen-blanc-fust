@@ -1,0 +1,102 @@
+@import "normalize.css";
+
+/********** STYLE GENERAL *********/
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    background: #fff;
+    color: #151515
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #ff8800;
+}
+
+/********** STYLE HEADER *********/
+header {
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+/********** STYLE NAVIGATION *********/
+
+header nav ul {
+    padding: 0;
+    margin: 1.5rem 0 1px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: .75em 1em;
+    color: #151515;
+}
+
+header nav a.actif {
+    color: #ff8800;
+    border-bottom: 3px solid #151515;
+}
+
+header nav a:hover {
+    border-bottom: 3px solid #151515;
+    background-color: #eeeeee;
+}
+
+/********** STYLE CONTENU PRINCIPAL *********/
+main {
+    padding: 1rem;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/********** PAGE NOS PRODUITS *********/
+.produits {
+    list-style-type: none;
+    padding: 0;
+}
+
+.produits li {
+    padding: 2% 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.produits li:hover {
+    transform: scale(1.03);
+}
+
+.produits figure {
+    text-align: center;
+    margin: 0;
+    padding: 1.5rem .75rem;
+}
+
+.produits figcaption {
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.produits figcaption h2 {
+    text-align: center;
+    margin: .5em 0 0;
+    line-height: 1.1;
+}
