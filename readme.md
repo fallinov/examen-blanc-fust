@@ -48,7 +48,7 @@ Ci-après, mes indications pour finir le site.
   une couleur de police grise `#666666`
 * Tous les paragraphes doivent avoir : 
   * une taille de police de `1.3rem`
-  * une hauteur de linge de `1.5`
+  * une hauteur de ligne de `1.5`
   * une largeur maximum de `800px`
 
 ## Entête
